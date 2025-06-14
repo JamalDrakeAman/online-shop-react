@@ -15,7 +15,6 @@ class App extends Component {
     addItem = (amount, name, price) => {
         let currentItem = this.state.items;
 
-        debugger;
         let existingItem = this.state.items.find(item => item.name == name);
         if (existingItem) {
             existingItem.amount++;
