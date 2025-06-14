@@ -1,12 +1,23 @@
-.product-container{
+.product-container {
     display: flex;
     gap: 32px;
     padding-left: 32px;
     padding-right: 32px;
 }
 
-@media(max-width: 850px){
-    .product-container{
+.shopping-cart{
+    width: 25vw;
+}
+
+
+.main-container {
+    display: flex;
+    padding-right: 32px;
+}
+
+
+@media(max-width: 850px) {
+    .product-container {
         flex-direction: column;
     }
 }
